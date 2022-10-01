@@ -1,7 +1,8 @@
-﻿Console.WriteLine("проверка связи!");
-// По двум заданным числам проверять является ли первое квадратом второго
-int A = 17;
-int B = 4;
-if (B*B==A)
-Console.WriteLine("Является");
-else Console.WriteLine("Не является");
+﻿
+int C = new Random().Next(10, 100);
+int D = new Random().Next(1, 10);
+if (D*D==C)
+Console.WriteLine($"Число {C} является квадратом числа {D}");
+else Console.WriteLine($"Число {C} не является квадратом числа {D}");
+
+Console.WriteLine();
